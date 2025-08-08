@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inscription</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section id="main-section">
+        <div class="boiteconnexion">
+            <form id="inscriptionForm" action="login.php" method="post">
+                <h2>CONNEXION</h2>
+                
+                <div class="nometprenom">
+                    <div class="nom">
+                        <span class="icon user-icon"></span>
+                        <input type="text" id="nom"name="nom" required>
+                        <label>Nom</label>
+                    </div>
+                    <div class="prenom">
+                        <span class="icon user-icon"></span>
+                        <input type="text" id="prenom" name="prenom" required>
+                        <label>Prénom</label>
+                    </div>
+                </div>
+
+                <div class="input-box">
+                    <span class="icon mail-icon"></span>
+                    <input type="email" id="email" name="email" required>
+                    <label>Email</label>
+                </div>
+
+                <div class="secure">
+                    <span class="icon lock-icon"></span>
+                    <input type="password" id="password"name="password" required>
+                    <label>Mot de passe</label>
+                </div>
+                <button type="submit">Se connecter</button>
+                <footer>vous avez pas de  compte ?<a href="index.html">s'inscrire</a> </footer>
+            </form>
+            </div>
+    </section>
+</body>
+</html>
